@@ -181,7 +181,6 @@ Excursión cultural
 Nombre: Ruta patrimonial diurna
 Duración: 3 horas
 Lugar histórico: Iglesia del Sagrado Corazón
-Ruta gastronómica
 ```
 ---
 **Repositorio GitHub:** https://github.com/mauvalenzuelaf-oss/LlanquihueTourApp-v4
