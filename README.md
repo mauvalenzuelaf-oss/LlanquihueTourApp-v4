@@ -141,7 +141,7 @@ ui
 ```plaintext
 src/ui/Main.java
 ```
-8. Ejecuta el método main.
+8. Ejecuta el método `main`.
 
 9. Revisa la salida generada en la consola.
 
