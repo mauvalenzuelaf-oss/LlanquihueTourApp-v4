@@ -12,7 +12,7 @@
 
 Este proyecto corresponde a la *Evaluación Formativa Nº 5* de la asignatura *Desarrollo Orientado a Objetos I*.
 
-Se trata de una nueva ampliación de *LlanquihueTourApp*, orientada a la aplicación de polimorfismo y colecciones en Java.
+Se trata de una nueva ampliación de *LlanquihueTourApp*, orientada a la aplicación de polimorfismo, colecciones y sobrescritura de métodos en Java.
 
 El sistema representa diferentes servicios turísticos ofrecidos por la empresa Llanquihue Tour mediante una jerarquía compuesta por una superclase y tres subclases.
 
@@ -31,7 +31,11 @@ A partir de esta clase se crean tres subclases especializadas:
 
 Cada subclase hereda los atributos comunes de `ServicioTuristico` e incorpora un atributo específico relacionado con su tipo de actividad.
 
-La clase `GestorServicios` crea dos objetos de cada subclase. Posteriormente, la clase `Main` almacena estos objetos en variables declaradas como `ServicioTuristico` y muestra su información en la consola, demostrando el uso de polimorfismo.
+La superclase define el método `mostrarInformacion()`, que presenta los datos generales de un servicio turístico. Posteriormente, cada subclase sobrescribe este método mediante la anotación `@Override`, agregando la información específica correspondiente a su tipo de servicio.
+
+La clase `GestorServicios` crea una colección polimórfica de tipo `List<ServicioTuristico>` que contiene dos objetos de cada subclase.
+
+Finalmente, la clase `Main` recibe y recorre esta colección mediante un ciclo `for-each` y llama al método `mostrarInformacion()` desde referencias de tipo `ServicioTuristico`. Durante la ejecución, Java selecciona automáticamente la versión sobrescrita del método según el tipo real de cada objeto, demostrando el funcionamiento del polimorfismo.
 
 ---
 
