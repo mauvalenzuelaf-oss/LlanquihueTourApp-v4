@@ -11,7 +11,6 @@ import model.ServicioTuristico;
 /**
  * Clase encargada de crear una colección polimórfica de servicios turísticos.
  */
-
 public class GestorServicios {
 
     /**
