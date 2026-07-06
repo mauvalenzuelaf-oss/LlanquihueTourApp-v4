@@ -10,9 +10,9 @@
 
 ## 📘 Descripción general del sistema
 
-Este proyecto corresponde a la **Evaluación Formativa Nº 4** de la asignatura *Desarrollo Orientado a Objetos I*.
+Este proyecto corresponde a la *Evaluación Formativa Nº 5* de la asignatura *Desarrollo Orientado a Objetos I*.
 
-Se trata de una nueva ampliación de **LlanquihueTourApp**, orientada a la aplicación de polimorfismo dinámico y colecciones genéricas en Java.
+Se trata de una nueva ampliación de *LlanquihueTourApp*, orientada a la aplicación de polimorfismo dinámico y colecciones genéricas en Java.
 
 El sistema representa diferentes servicios turísticos ofrecidos por la empresa Llanquihue Tour mediante una jerarquía compuesta por una superclase y tres subclases.
 
