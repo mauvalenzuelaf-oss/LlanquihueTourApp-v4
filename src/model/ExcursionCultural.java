@@ -5,7 +5,7 @@ package model;
  */
 public class ExcursionCultural extends ServicioTuristico {
 
-    //Atributos
+    // Atributo
     private String lugarHistorico;
 
     /**
@@ -24,7 +24,7 @@ public class ExcursionCultural extends ServicioTuristico {
         this.lugarHistorico = lugarHistorico;
     }
 
-    // getter y setter
+    // Getter y Setter
     public String getLugarHistorico() {
         return lugarHistorico;
     }
